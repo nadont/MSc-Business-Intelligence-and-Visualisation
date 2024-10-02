@@ -1,0 +1,82 @@
+Tior Games Case study
+
+Tior Games is dedicated to providing an exceptional player experience as its primary objective. To ensure a consistent, fast, and always-available high-quality player experience for its global user base, Tior Games focuses on its most popular and lucrative game, League of Fun (LoF). LoF, a free-to-play game with in-game purchases, operates as a computer-based MOBA.
+
+Given the widespread popularity of LoF, Tior Games hosts World Championships biannually, in January and September, for competitive and professional teams. The awards and event popularity have grown each year, mirroring the overall rise in gaming industry and community interest.
+
+A few years ago, Tior Gaming migrated its entire data warehouse to Amazon AWS, specifically using Hive. As a user with access to a segment of the company's data warehouse managed by their DBA, the data is centered around the previous World Championships starting from 2016. The structure employs a snowflake schema, encompassing game data, champion data, player information, and event details.
+
+The objective is to analyze the accessible data and propose strategies for Tior Gaming to enhance both player and spectator experiences, boost the World Championship's popularity, and overall improve profitability. The proposed solution involves querying the data within the data warehouse and subsequently creating a visual business presentation for Tior's Board of Executives.
+
+To access the data warehouse: 
+Connect to the university’s VPN. 
+Go to Azure data studio or VSCode, connect with your login details as we did in the workshop and are detailed on Moodle.
+Select the TiorGames database. You are NOT allowed to use any other data warehouse. 
+
+Keep in mind that the data warehouse has issues as it happens in real life, and this is to be expected. You are unable to edit or “clean” the data given to you. 
+
+The data dictionary is also provided in a separate file link: 
+https://docs.google.com/spreadsheets/d/1-ifRuypTcBd_NZAR_fBydqIvi7IiVEbp/edit?usp=sharing&ouid=100867728873298265982&rtpof=true&sd=true
+
+
+Data warehouse
+You MUST use the Tior Games data warehouse. 
+You will be asked to run the code produced, so please have all the code ready to run to avoid delays. 
+Before the presentation and before the deadline: Create and submit on the dropbox in Moodle one SHORT slide presentation with all your answers. 
+During the presentation:
+•	You will execute all your code and discuss the rationale behind it.
+•	You will have to be able to discuss the answers to the questions.
+•	You are not allowed to have any notes other than your report.
+•	The presentation will be 5-8 minutes in length plus 2 minutes for questions and it will be on a 1-1 basis. 
+
+You must answer all of the following questions: 
+
+Question 1
+Compose and execute six T-SQL queries. In the slide presentation, include the code for each query.
+Notes:
+•	Ensure that your queries utilize OLAP functions and incorporate data warehouse-specific keywords, as discussed in the workshops. OLTP queries will receive zero marks.
+•	Make your queries meaningful, showcasing the capability of a Data Warehouse in supporting decision-makers.
+•	Employ a diverse range of fact tables and dimensions from the provided Data Warehouse.
+•	Provide brief explanation of the business rationale behind its query.
+•	Each of the six queries must differ from one another, utilizing distinct fact tables and dimensions.
+•	Ensure that each query incorporates at least one data warehouse concept. Queries resembling "select * from tablename where condition is true" and repetitive queries will be scored as zero.
+•	Avoid presenting a query that answers question 3 in this assignment.
+
+{Total marks: 48}
+Question 2
+Revise the given schema and propose a minimum of two additional dimensions that would yield valuable insights. 
+In the slide presentation, include the two dimensions, their data dictionaries, and a single sentence justifying their inclusion.
+Notes:
+•	Articulate the rationale and business reasoning behind your choices, explaining why these dimensions and how the business can leverage insights derived from them.
+•	Present these two dimensions using the existing naming convention in the data warehouse.
+•	Ensure these two dimensions seamlessly integrate with at least one fact table or dimension in the current data warehouse.
+•	Include a data dictionary following the same format as the provided data dictionary.
+•	Utilize any visual means you prefer to present the dimensions and their data dictionaries.
+
+{Total marks 20}
+
+Question 3
+Utilize the provided data warehouse to formulate ONE T-SQL query answering the following questions:
+a. Determine the online item that experienced the most unexpected sales in Japan and identify the corresponding year.
+b. Identify the online item with the least unexpected sales when considering all countries and years. Specify the country and exact year for this occurrence.
+Notes:
+•	Think: what might be considered unexpected in the sales business.
+•	Assume the existence of required indexes and constraints for the tables.
+•	Craft your queries with clarity and efficiency.
+In the slide presentation include the code of the query and the 2 answers.  
+{Total marks 12}
+
+
+
+Question 4
+External dataset integration.
+Based on the data warehouse provided. You are tasked to identify and describe the rationale of an external dataset or identify a real company that their data would be able to complement Tior Games data warehouse.
+Instructions:
+1.	Identify an external dataset or a real company with relevant data that, when integrated into Tior Games' data warehouse, could offer valuable insights.
+2.	Provide details on the nature of the external dataset or the identified company, including the type of data they collect, its scope, and its potential relevance to Tior Games.
+3.	Clearly articulate the rationale behind selecting this external dataset or company.
+4.	Describe the specific benefits that integrating this external data would bring to Tior Games.
+5.	Anticipate potential challenges or issues that may arise during the integration process. Propose mitigation strategies or solutions to address these challenges and ensure a smooth integration.
+6.	Summarize your findings in a presentation format suitable for Tior Games' Board of Executives. Include key visuals, and referneces to illustrate the potential impact of integrating the external dataset on Tior Games' data warehouse.
+
+{Total marks 20}
