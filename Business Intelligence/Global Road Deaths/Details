@@ -1,0 +1,41 @@
+Task 1 BPMN
+This coursework aims to equip you with the skills to create Business Process Model and Notation (BPMN) diagrams to represent the mobilization of Computable Biomedical Knowledge (CBK) as outlined in the manifesto. You will explore the key principles, mechanisms of activity, and the vision of CBK to develop BPMN diagrams that depict processes fostering the open and FAIR CBK ecosystem. 
+You are required to: 
+1.	Collaborative design of a comprehensive BPMN model simulating the processes involved in mobilizing CBK for healthcare improvement.
+2.	Presenting this BPMN model focusing on a specific aspect of CBK, explaining the decision-making process, and its impact on healthcare.
+You are allowed to use any software to create the BPMN model.
+
+[Total marks: 30]
+Task 2 Data Story. 
+Please provide a slide presentation that explores your question and shares a story that will benefit your audience. You may of may not focus on the MCBK/healthcare domain.
+Your product will:
+•	Provide clear question(s)
+•	Tell us your motivation for the topic
+•	Define key variables including how they are measured
+•	Tell a clear story
+•	Have visuals and data that support the story
+•	Provide documentation about the source of the data set(s)
+•	Discuss limitations of data set(s).
+•	Demonstrate understanding of concepts covered in this course.
+•	Make effective comparisons
+•	Demonstrate that time was spent exploring your data sets, designing your visual displays, and crafting your story.
+Please include the following sections:
+A.
+Introduction and background. Discuss your motivation for picking your topic. Please include any sources that inspired you. Give context and relevance. What do you want to learn and accomplish? What questions do you want to answer? How will your project benefit others?
+B.
+Datasets. Describe the datasets that you are using (need at least two datasets). For each dataset include:
+•	Who collected the data? Who funded the project that the data came from? Other important information?
+•	Define and describe the variables included in the dataset.
+•	How large is the dataset (cases, how many and what are the variables)?
+•	What locations are included in the dataset?
+•	Describe how the datasets will help you achieve your goals/questions that posed in your introduction, including any limitations.
+C.
+Create at least four charts in Flourish or Tableau. Please include at least one map and at least one bar chart.
+For each chart:
+•	Tell the reader which data set (if using more than one) each variable comes from, the units (or categories) of the variable, and any other additional information.
+•	Please explore and reference accompanying documentation! Are there any limitations in the data set? Are there any definitions to share?
+As mentioned above, make sure that your variables are clearly defined.
+Demonstrate how the chart addresses your question/goal.
+Create a Flourish or Tableau story that includes at least three charts and at least two interactive features.
+Discuss and describe your charts and tells your audience a story that meets your goals stated in the introduction. Please apply the concepts and principles that we have covered in this module.
+[Total marks: 65]
