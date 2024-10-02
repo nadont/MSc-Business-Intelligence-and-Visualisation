@@ -1,0 +1,39 @@
+Exercise 1: Graphs 
+You are tasked to identify and use a dataset. 
+Feel free to consult this list for your dataset identification.
+You are allowed to use any type of data based on the restrictions below:
+•	You are not allowed to use dataset that includes pictures, of any kind.
+•	You are not allowed to use dataset that is not referenced properly and is not free to use.
+•	You are not allowed to use dataset that includes children, illegal, sexist, criminal, explicit, racist or abusive content of any kind.
+•	You are not allowed to collect own data.
+•	You are not allowed to develop your own dataset (mock data), but you are allowed to perform data cleaning.
+
+You need to create two prototypes, in other words two groups of 4 visualisations. Each prototype would include 4 visualisations based on the dataset. 
+Prototype and visualisations must follow the rules below: 
+•	There must be a main, coherent message per prototype.
+•	At least one of the visualisations must be a bar chart but different, such as a pictogram or unit chart or Isotype Plot. Feel free to use your imagination.
+•	At least one of the visualisations must be a heatmap. 
+•	All visualisations should be of different type to each other but complimentary.
+•	All visualisations axes should be of different to each other but of complimentary context that match the prototype. In other words, do not duplicate the same chart based on different chart types.
+
+Feel free to make assumptions as needed in the spirit of the exercise. You are encouraged to consult academic resources.
+
+Exercise 2: Shadow data 
+Pollution is a major source of environmental damage. Pollution has the potential to destroy resources and push away native animal populations. Trash, carbon emissions, oil spills, and pesticides are all significant polluters.
+With this in mind, download the US toxic release data dataset.
+
+Task 1
+You are tasked to create one visualisation that provides the answer both questions: 
+1.	Which State had the highest pounds of releases and how much? (Rounded number)
+2.	Which State has the highest number of facilities and how many? 
+
+It has been reported that US military is a great polluter and it also includes toxic releases. We are unable to obtain accurate US military data. There is no need to do any data searching or extraction, just use your imagination for what data could exist and could be available.
+
+Task 2:
+Discuss briefly the effects of those imaginary data in terms of the answers to the two questions above. Given that some US states may have more bases and personnel than others. Feel free to make any assumptions necessary to support your arguments and consult the following sources:
+Source 1: https://247wallst.com/special-report/2023/08/28/states-with-the-most-military-personnel-all-50-states-ranked/
+Source 2: https://247wallst.com/special-report/2023/08/28/states-with-the-most-military-personnel-all-50-states-ranked/
+You are encouraged to consult further resources.
+
+
+Note** Data set used are from NBA api and basketball reference
